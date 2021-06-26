@@ -1,0 +1,48 @@
+<!-- <p>
+  home works!
+</p> -->
+<div class="main">
+
+  <div style="display: flex;
+  justify-content: center;
+  color: rgb(196, 196, 4); background-color: #114183;">
+<h2>Home</h2>
+</div>
+
+  <div class="search">
+    <input placeholder="search" type="text">
+
+    <button (click)="searchCustomer()">Search</button>
+
+    <button style="width:auto;" routerLink="/edit">Add a Customer</button>
+  </div>
+
+
+  <div class="table-area">
+
+    <table>
+      <tr style="border-bottom: 2px solid rgb(196, 196, 4) !important; color: rgb(196, 196, 4);">
+        <th>Name</th>
+        <th>Age</th>
+        <th>Gender</th>
+        <th>Address</th>
+        <th>Orders</th>
+        <th>Action</th>
+      </tr>
+     
+      <tr style="border-bottom: 2px solid rgb(196, 196, 4) !important;">
+        <td>Chinazor</td>
+        <td>18</td>
+        <td>Male</td>
+        <td>Number 7 Asanjo way Sangote</td>
+        <td>3</td>
+        <td>
+          <div>
+            <button (click)="editCustomer('edit','')">Edit</button>
+            <button (click)="deleteCustomer()">Delete</button>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>

@@ -1,0 +1,54 @@
+<div  class="main">
+
+  <div style="display: flex;
+              justify-content: center;
+              color: rgb(196, 196, 4); background-color: #114183;">
+    <h2>Add/Edit Customer</h2>
+  </div>
+
+  <div class="cust-det">
+
+    <form>
+      <div>
+        <input type="text" placeholder="Name">
+      </div>
+  
+      <div>
+        <input type="text" placeholder="Age">
+      </div>
+
+      <div>
+        <select placeholder="Gender" title="Gender">
+          <option value="" disabled selected hidden>Gender</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+        </select>
+      </div>
+
+      <div>
+        <input type="text" placeholder="Address">
+      </div>
+    </form>
+    
+  </div>
+
+  <div class="btn-area">
+    <button routerLink="/add">Add Order</button>
+    <button (click)="update()">Update</button>
+    <button routerLink="/home">Cancel</button>
+  </div>
+
+  <div class="order-tbl">
+    <table>
+      <tr style="border-bottom: 2px solid rgb(196, 196, 4) !important; color: rgb(196, 196, 4);">
+        <th>Date</th>
+        <th>Ammount</th>
+      </tr>
+     
+      <tr style="border-bottom: 2px solid rgb(196, 196, 4) !important;">
+        <td>a date</td>
+        <td>18</td>
+      </tr>
+    </table>
+  </div>
+</div>

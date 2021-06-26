@@ -1,0 +1,69 @@
+.main{
+    background-color: #0C274D;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+
+    .cust-det{
+        color: #fff;
+        padding-top: 30px;
+        padding-left: 10%;
+
+        input{
+            height: 30px;
+            margin: 10px;
+            border-radius: 6px;
+            outline: none;
+            border: none;
+            padding: 5px;
+            border: 2px solid rgb(196, 196, 4);
+            width: 300px;
+            font-size: 16px;
+        }
+
+        select{
+            height: 40px;
+            margin: 10px;
+            border-radius: 6px;
+            outline: none;
+            border: none;
+            padding: 5px;
+            border: 2px solid rgb(196, 196, 4);
+            width: 310px;
+            font-size: 16px;
+        }
+    }
+
+    .btn-area{
+        display: flex;
+        justify-content: center;
+
+        button{
+            width: auto;
+            height: 40px;
+            margin: 5px;
+            border-radius: 5px;
+            border: none;
+            font-weight: bold;
+            color: #0C274D;
+            font-size: 16px;
+            border: 2px solid rgb(196, 196, 4);
+
+            &:active{
+                background-color: rgb(196, 196, 4);
+            }
+        }
+    }
+
+    .order-tbl{
+        color: #fff;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+
+        table{
+            width: 20%;
+            text-align: center;
+        }
+    }
+}
